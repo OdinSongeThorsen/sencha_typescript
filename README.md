@@ -1,7 +1,7 @@
 ﻿# 🧩 ExtJS Classic Type Definitions (Unofficial)
 
 **Target:** ExtJS Classic 7.9.0.35
-**Created by:** Schematic Dreamers, 2025
+**Created by:** Odin Thorsen, 2025
 
 A lightweight TypeScript layer for ExtJS Classic that adds **type safety**, **autocomplete**, and **inline visual docs**—making ExtJS development predictable again.
 
@@ -209,3 +209,4 @@ app/tsconfig.json   # local, JS-friendly TS config
 
 > ExtJS won’t tell you when you’re wrong.
 > Now it finally does.
+
