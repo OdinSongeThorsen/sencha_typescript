@@ -1,22 +1,9 @@
 ﻿/**
  * ExtJS Classic 7.9.0.35
- * Typed by Schematic Dreamers, 2025.
+ * Typed by Odin Songe Thorsen, 2025.
  *
  *   Only verified against this version.
  *   Later Ext releases may add, change or remove configs.
- *
- * Provides basic type checking for common Ext components.
- *
- * Example: writing `autoload` instead of `autoLoad` normally passes silently in Ext,
- * but with these types you'll get an error. The goal is to catch common typos
- * and improve confidence when working with ExtJS configs.
- *
- * Notes:
- * - This file is incomplete — missing or simplified types are expected.
- * - Some things are disallowed, if you want to allow them, fight me 😤
- * - Types only apply to Ext components and classes that directly extend them.
- * - If you need type safety for your own abstract components, add them yourself.
- * - Feel free to improve on the types here, the more specific the types are the better
  */
 declare namespace Ext {
     function create<K extends string>(
@@ -93,5 +80,6 @@ declare namespace Ext {
         /** Renders and replaces the contents of the specified element or selector. */
         overwrite(target: string | HTMLElement, data: any): void;
     }
+
 
 }
